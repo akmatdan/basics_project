@@ -12,6 +12,7 @@ class HomePage extends StatelessWidget {
         children: [
           Container(
             margin: EdgeInsets.only(top: 40, left: 20, right: 20),
+            decoration: BoxDecoration(boxShadow: []),
             child: TextField(
               decoration: InputDecoration(
                 filled: true,
